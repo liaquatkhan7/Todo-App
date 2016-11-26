@@ -1,0 +1,48 @@
+body{
+    background-color: lightgrey;
+}
+
+#main-content{
+    width: 70%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.2);
+    text-align: center;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    
+}
+
+#textFiled {
+    opacity: 1.0;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 5px 0px 5px 0px;
+}
+
+#submitButton {
+    padding: 5px;
+    font-size: 20px;
+    height: 42px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#text-out {
+    margin: 10px;
+    text-align: left;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+#text-out:hover{
+    background-color: darkgrey;
+    border: 1px solid black;
+
+}
+
+#text-out a {
+    margin-left: 300px;
+}
