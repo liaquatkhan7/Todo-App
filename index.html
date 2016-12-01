@@ -6,21 +6,31 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    
     <div id="main-content">
         <div class="contet">
             <h1> Todo App </h1>
         </div>
         
-        <form>
-            <input type="text" name="textfiled" id="textFiled">
-            <input type="submit" name="submit" id="submitButton">
-        </form>
-        <div id="text-out">
-            <h2>Text Will going to come here 
-                <a href="javascript:void(0)"> <img src="1480124680_cancel.png" alt="cancel" width="15px" height="15px"></a> 
-            </h2>
-        </div>
+        <!--<form onSubmit="add('textFiled');">-->
+            <input type="text" name="enter" id="textFiled">
+            <!--<input type="submit" name="submit" id="submitButton">-->
+            <button onclick="add()">Add</button>
+        <!--</form>-->
+        
+        <!--<div id="text-out">--> 
+                <!--<a href="JavaScript:void(0)"> <img src="1480124680_cancel.png" alt="cancel" width="15px" height="15px"></a> -->
+        <!--</div>-->
+
+    <ol id="todoHere">
+        <li> 
+            <!--<a href="JavaScript:void(0)"> 
+            <img src="1480124680_cancel.png" alt="cancel" width="15px" height="15px">
+            </a>-->
+        </li>        
+    </ol>        
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
